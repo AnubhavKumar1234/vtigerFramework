@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.sdet.organization.CreateOrganizationTest">
+      <class name="practice.YatraApp">
         <methods>
-          <include name="AT"/>
-          <include name="AM"/>
-          <include name="BS"/>
-          <include name="BC"/>
-          <include name="AS"/>
-          <include name="BT"/>
-          <include name="AC"/>
-          <include name="createOrganization"/>
-          <include name="BM"/>
+          <include name="departButton"/>
         </methods>
-      </class> <!-- com.crm.sdet.organization.CreateOrganizationTest -->
+      </class> <!-- practice.YatraApp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
