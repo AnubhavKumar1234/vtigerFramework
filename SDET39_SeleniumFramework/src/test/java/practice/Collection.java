@@ -96,17 +96,17 @@ public class Collection {
 //		list.addLast("Singh");
 //		System.out.println(list);
 		
-//		PriorityQueue<Object> que=new PriorityQueue<Object>();
-//		que.add(5);
-//		que.add(10);
-//		que.add(12);
-//		que.add(52);
-//		que.add(25);
-//		que.add(15);
-//		System.out.println(que.peek());
-//		System.out.println(que);
-//		System.out.println(que.poll());
-//		System.out.println(que);
+		PriorityQueue<Object> que=new PriorityQueue<Object>();
+		que.add(5);
+		que.add(10);
+		que.add(12);
+		que.add(52);
+		que.add(25);
+		que.add(15);
+		System.out.println(que.peek());
+		System.out.println(que);
+		System.out.println(que.poll());
+		System.out.println(que);
 		
 		HashSet<Object> set=new HashSet<Object>();
 		set.add(10);
@@ -120,27 +120,27 @@ public class Collection {
 		System.out.println(set);
 		
 		LinkedHashSet<Object> set1=new LinkedHashSet<Object>();
-		set.add(10);
-		set.add(10);
-		set.add("AKSingh");
-		set.add(20);
-		set.add('A');
-		set.add(null);
-		set.add(null);
-		System.out.println(set);
+		set1.add(10);
+		set1.add(10);
+		set1.add("AKSingh");
+		set1.add(20);
+		set1.add('A');
+		set1.add(null);
+		set1.add(null);
+		System.out.println(set1);
 		
 		
-//		TreeSet<Object> set=new TreeSet<Object>();
-//		set.add('A');
-//		set.add('A');
-//		set.add('E');
-//		set.add('D');
-//		set.add('C');
-//		set.add('B');
-//		
-//		set.add(null);
-//		
-//		System.out.println(set);
+		TreeSet<Object> set2=new TreeSet<Object>();
+		set2.add('A');
+		set2.add('A');
+		set2.add('E');
+		set2.add('D');
+		set2.add('C');
+		set2.add('B');
+		
+		set2.add(null);
+		
+		System.out.println(set2);
 		
 //		Hashtable<Integer,String> map=new Hashtable<Integer,String>();
 //		map.put(101, "Hi");
